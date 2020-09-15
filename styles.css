@@ -1,0 +1,37 @@
+html {
+    background-color: white;
+    color: #2f2f2f;
+    font-family: 'Lora', 'Black Ops One', cursive, 'Arial', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+/* Memorey Game Title */
+h1 {
+    text-align: center;
+}
+
+/* Score Board */
+h2 {
+    text-align: center;
+    color: #FF5049;
+    font-size: 32px;
+}
+
+/* The Container for the cards */
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 40px 20px 40px;
+    padding: 20px;
+    max-width: 1084px;
+    margin: 0 auto;
+}
+
+/*Message for users */
+.message {
+    margin : 10px;
+    color: #096279;
+}
